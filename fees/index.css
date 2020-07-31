@@ -1,0 +1,401 @@
+
+
+.logo{
+    height: 100px;
+    background: 
+  /* On "top" */
+  repeating-linear-gradient(
+    -45deg,
+    transparent,
+    transparent 10px,
+    #c6e2eb 10px,
+    #00e6ac 20px
+  ),
+  /* on "bottom" */
+  linear-gradient(
+    to bottom,
+    rgb(243, 222, 222),
+   #ff00ff  
+  );
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    
+
+}
+
+.myLogo{
+    align-content: center;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin-left: 40%;
+    margin-right: 60%;
+    
+}
+.navBar{
+height: 50px;
+background-color: rgba(255,255,255,0.7);
+padding: 5px;
+
+}
+.navBar ul{
+          justify-content: space-between;
+          padding-top:7px;
+          margin: 0px;
+          
+          display: flex;
+          color: blue;
+          /*margin-top: 20px;*/
+          font-size: large;
+}
+mySearch{
+    margin-top: 0px;
+}
+.firstBody{
+height: 450px;
+background-image:url(./img/nature3.jpg);
+padding: 10px;
+}
+.secondBody{
+height: 500px;
+box-sizing: border-box;
+border-radius: 5px;
+}
+.footer{
+            border-radius: 5px;
+            bottom: 0;
+            background-color: rgba(0,191,255,0.9);
+            height: 50px;
+            padding-top: 0;
+            padding: 1px;
+            text-align: center;
+            margin-bottom: 0px;
+            color:blue;
+            font-size: small;
+}
+.rumor{
+    background-color: rgba(255,255,255,0.8);
+    height: 400px;
+    margin-bottom: 2px;
+    padding-top: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+}
+
+.yap{
+    height: 19px;
+    margin-bottom: 3px;
+    float: left;
+-webkit-border-top-left-radius:5px;
+-webkit-border-bottom-left-radius:5px;
+-moz-border-top-left-radius:5px;
+-moz-border-bottom-left-radius:5px;
+border-top-left-radius:6px;
+border-bottom-left-radius:6px;
+outline: none;
+}
+.ome{
+    height: 19px;
+    width: 18.5px;
+    background-color: cornflowerblue;
+    float: left;
+    -webkit-border-top-right-radius:5px;
+-webkit-border-bottom-right-radius:5px;
+-moz-border-top-right-radius:5px;
+-moz-border-bottom-right-radius:5px;
+border-top-right-radius:6px;
+border-bottom-right-radius:6px;
+margin-bottom: 3px;
+align-content: center;
+padding: 1px;
+padding-top: 4px;
+padding-left: 4px;
+cursor: pointer;
+outline: none;
+}
+.banner{
+    width: 60%;
+    height: 97%;
+    margin-left: 15px;
+    background-color: rgba(248, 215, 220, 0.7);
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 10px;
+    float: left;
+}
+.banHeading{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: mediumvioletred;
+    font-weight: 200;
+}
+
+
+.pru{
+    text-align: center;
+    margin-right: 2px;
+    float: left;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-image: url(./img/based.jpeg);
+    height: 190px;
+    width:100%
+    
+}
+
+.line1{
+    text-align: center;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+.adv{
+    background-color:rgba(255,20,147,0.4);
+    height: 85%;
+    width: 35%;
+    box-sizing: border-box;
+    box-shadow: springgreen;
+    float:right;
+    margin-right: 10px;
+    border-radius: 3px;
+    margin-top: 40px;
+    overflow: hidden; 
+    padding: 5px;  
+    
+}
+.advan{
+    width:60% ;
+    float: left;
+    padding: 10px;
+    overflow: hidden;
+    
+}
+.advan h3{
+    text-align: center;
+}
+.rum1{
+    width: 30%;
+    margin-right: 2px;
+    float: left;
+    height: 99%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color:gainsboro;
+    border: black;
+    padding: 10px;
+}
+.rum2{
+    
+    width: 30%;
+    margin-right: 2px;
+    float: left;
+    height: 99%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color:gainsboro;
+    margin-left: 60px;
+    border: black;
+    padding: 10px;
+}
+.rum3{
+    
+    width: 30%;
+    margin-right: 2px;
+    float: right;
+    height: 99%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color:gainsboro;
+    border: black;
+    padding: 10px;
+}
+.tor{
+    height: 250px;
+    
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 2px;
+    padding: 10px;
+   background-color: skyblue;
+
+    
+  
+
+}
+.text-bold{
+    color: blue;
+}
+.line1{
+    color: rgb(170, 7, 40);
+}
+.contacts{
+    height:80% ;
+    width:30%;
+    background-color: rgba(248, 215, 220, 0.7);
+    box-sizing: border-box;
+    border-top-left-radius:5px ;
+    border-top-right-radius:5px ;
+    margin: auto;
+    padding-top: 5px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    
+}
+.adv-image{
+    height: 150px;
+    width: 25%;
+    border-radius: 50%;
+    margin: auto;
+    float: right;
+    font-size: smaller;
+    shape-outside: circle();
+    text-align: center;
+
+}
+.adv p{
+    margin: 5px;
+    text-align: left;
+    margin-right: 20px;
+    font-size: 0.9rem;
+}
+.adv h2{
+    text-align: center;
+}
+.adv h4{
+    text-align: center;
+}
+.banner hr{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.login{
+    height: 97%;
+    width: 19%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    float: left;
+}
+.registry{
+    height: 97%;
+    width: 19%;
+    background-color: 	rgba(0,255,255,0.7);
+    box-sizing: border-box;
+    border-radius: 5px; 
+    float: right;  
+}
+.logN{
+  height: 40%;
+    width: 100%; 
+    background-color:gainsboro;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 5px;
+    text-align:center;
+    color: rgb(255, 47, 161);
+}
+.logM{
+  height: 59%;
+    width: 100%; 
+    background-color:rgba(248, 215, 220, 0.7);
+    margin-top: 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+ padding: 4px;
+}
+#pname{
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+#uname{
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+#subM{
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.myfrm{
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-color: green;
+    height: 500px;
+    line-height: 1px;
+    /*visibility: hidden;*/
+    
+    	
+
+}
+fieldset{
+    border:2px solid rgb(128, 0, 122);
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;	
+    border-radius:8px;
+    width: 90%;
+    height: 50%;
+    
+}
+.receipt{
+    background-color: gainsboro;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 5px;
+    height: 697px;
+    width: 49%;
+    float: left;
+}
+.entryy{
+  background-color: gainsboro;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 5px;
+    height: 697px;
+    width: 49%; 
+    float: right; 
+    padding-left: 15px;
+}
+.entryy h4,h5,h6{
+    margin: 0px;
+    text-align: center;
+}
+.entryy h4{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.gen{
+height: 700px;
+text-align: center;
+padding: 5px;
+}
+th{
+    text-align: center;
+}
+td {
+  padding: 0px;
+   text-align: center;
+   border-spacing: 1px;
+   color: rgb(17, 8, 8);
+  background-color: white;
+  border-color:black;
+  
+}
+#myCoat{
+    height: 40px;
+    width: 40px;
+}
+#mySchlogo{
+    height: 55px;
+    width: 55px;
+    float: left;
+    margin-left: 120px;
+    margin-right: 0px;
+}
+.schHeader{
+    padding-left:1px;
+    text-align: center;
+    --width: 80%;
+}

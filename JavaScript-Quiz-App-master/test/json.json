@@ -1,0 +1,49 @@
+{
+    "data": [
+        {
+            "Id": 1,
+            "blogCategory": "Featured",
+            "blogTitle":"Who may abide the day of his coming?",
+            "postedOn": "June 13, 2019",
+            "author": "ChequeKoluoch",
+            "myImage": "img/kepha.jpg",
+            "blogText": " The people of Israel, because of their sinfulness, were forbidden to approach the mount when God was about to descend upon it to proclaim His law, lest they should be consumed by the burning glory of His presence. If such manifestations of His power marked the place chosen for the proclamation of God's law, how terrible must be His tribunal when He comes for the execution of these sacred statutes. How will those who have trampled upon His authority endure His glory in the great day of final retribution? When the divine Presence was manifested upon Sinai, the glory of the Lord was like devouring fire.... But when Christ shall come in glory with His holy angels the whole earth shall be ablaze with the terrible light of His presence....Never since man was created had there been witnessed such a manifestation of divine power as when the law was proclaimed from Sinai.... Amid the most terrific convulsions of nature the voice of God, like a trumpet, was heard from the cloud. The mountain was shaken from base to summit, and the hosts of Israel, pale and trembling with terror, lay upon their faces upon the earth. He whose voice then shook the earth has declared, “Yet once more I shake not the earth only, but also heaven.” ...When Moses came from the divine Presence in the mount, where he had received the tables of the testimony, guilty Israel could not endure the light that glorified his countenance. How much less can transgressors look upon the Son of God when He shall appear in the glory of His Father, surrounded by all the heavenly host, to execute judgment upon the transgressors of His law and the rejecters of His atonement....But amid the tempest of divine judgment the children of God will have no cause for fear. “The Lord will be the hope of his people, and the strength of the children of Israel.” The day that brings terror and destruction to the transgressors of God's law, will bring to the obedient, “joy unspeakable, and full of glory.” 1Patriarchs and Prophets, 339-341."
+        },
+        {
+            "Id": 2,
+            "blogCategory": "Simple",
+            "wikiTitle": "CORONA Virus",
+            "postedOn": "July 2, 2019",
+            "author": "ChequeKoluoch",
+            "wikiImage": "img/coronavirus.jpg",
+            "wikiText": "Coronaviruses are a family of viruses known for containing strains that cause potentially deadly diseases in mammals and birds. In humans they're typically spread via airborne droplets of fluid produced by infected individuals.Some rare but notable strains, including Wuhan coronavirus (2019-nCoV), and those responsible for severe acute respiratory syndrome (SARS) and Middle East respiratory syndrome (MERS), can cause death in humans.First described in detail in the 1960s, the coronavirus gets its name from a distinctive corona or 'crown' of sugary-proteins that projects from the envelope surrounding the particle. Encoding the virus's make-up is the longest genome of any RNA-based virus – a single strand of nucleic acid roughly 26,000 to 32,000 bases long.There are four known genuses in the family, named Alphacoronavirus, Betacoronavirus, Gammacoronavirus, and Deltacoronavirus. The first two only infect mammals, including bats, pigs, cats, and humans. Gammacoronavirus mostly infects birds such as poultry, while Deltacoronavirus can infect both birds and mammals. COVID-19 (2019-CoV) Wuhan coronavirus was first identified in the Chinese city of Wuhan in 2019. At the time of writing, numbers of infected are still on the rise, with a mortality rate of around 1 percent.Snakes were originally suspected as a potential source for the outbreak, though other experts have deemed this unlikely and proposed bats instead. As of February 2020, the search for the animal origin of COVID-19 is ongoing.Severe acute respiratory syndrome (SARS-CoV) SARS was first recognised as a distinct strain of coronavirus in 2003. The source of the virus has never been clear, though the first human infections can be traced back to the Chinese province of Guangdong in 2002. The virus then became a pandemic, causing more than 8,000 infections of an influenza-like disease in 26 countries with close to 800 deaths. The virus then became a pandemic, causing more than 8,000 infections of an influenza-like disease in 26 countries with close to 800 deaths.MERS was first identified in Saudi Arabia in 2012 in people displaying symptoms of fever, cough, shortness of breath and occasionally gastrointestinal problems such as diarrhoea. An animal source for the virus has never been officially confirmed, though evidence points to dromedary camels as a potential reservoir of infection. The World Health Organisation has identified around 2,500 cases of infection in 27 countries since initial outbreaks, resulting in nearly 860 deaths."
+        },
+        {
+            "Id": 3,
+            "blogCategory": "Simple",
+            "blogTitle": "Chinese markets plunge as Coronavirus death toll rises to 361",
+            "postedOn": "Feb 2, 2020",
+            "author": "Rexton Mkenya",
+            "blogImage": "my-third-image.png",
+            "blogText": "Chinese stock and commodity markets fell heavily on Monday as the death toll from a coronavirus epidemic in China rose to 361 and investors retreated into safe-haven assets in the first trading session after an extended Lunar New Year break."
+        },
+        {
+            "Id": 4,
+            "blogCategory": "Featured",
+            "blogTitle": "With technology, Kenya is not left behind in fight against doping",
+            "postedOn": "September 12, 2019",
+            "author": "Richard Maendeloe",
+            "blogImage": "my-fuorth-image.png",
+            "blogText": "Despite  and relevant sports regulators such as the Anti-Doping Agency oers."
+        },
+        {
+            "Id": 5,
+            "blogCategory": "Trends",
+            "blogTitle": "CBC needs a comprehensive sex education curriculum",
+            "postedOn": "December 31, 2019",
+            "author": "Okil Obilo",
+            "blogImage": "my-fifth-image.png",
+            "blogText": "Transformation education is the theme for this year’s international actions"
+        }
+    ]
+}

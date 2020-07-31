@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Fee Tracking</title>
+</head>
+
+<body>
+    <header class="logo">
+        <img src="img/logo2.PNG" alt="Logo" class="myLogo">
+    </header>
+    <hr>
+
+ <div class="gen">
+
+        <div class="receipt">
+            <!----<label for="cars">STUDENT'S ADM NO:</label>-->
+<form method="POST" action="/receipt" id="formId">
+    <fieldset>
+    <legend><i>Lorem Ipsum Sec. Sch. Fee Payment Receipt</i></legend>
+            <select id="select1" value="Tution">
+                <option value="tution">Tution</option>
+                <option value="boarding">Bording</option>
+                <option value="rmi">R.M.I</option>
+                <option value="ewc">E.W.C</option>
+                <option value="itt">L.T & T</option>
+                <option value="admCost">Administration Costs</option>
+                <option value="actFund">Activity FUND</option>
+                <option value="exam">ExamS</option>
+                <option value="perEmol">Personal Emoluments</option>
+                <option value="pta">PTA/DEV. FUND</option>
+                <option value="medFee">Mock</option>
+                <option value="mock">Bus Fund</option>
+                <option value="busFund">Medical Fees</option>
+                <option value="cautionMon">Caution Money</option>
+                <option value="Harambe">Harambe</option>
+                <option value="imprest">Advance/Imprest</option>
+            </select>
+
+            <input type="number" id="myText" name="admNo" value=""/>
+
+            <button type="button" onclick="selector()" id="sell">enter</button><br>
+            <hr>
+            <input type="number" id="amount" name="feePaid"  value=""/>
+            <hr>
+
+            <select name="serial" id="cars">
+                <option>123</option>
+                <option>124</option>
+                <option>125</option>
+                <option>126</option>
+                <option>127</option>
+                <option>128</option>
+            </select>
+
+            <hr>
+            <select name="myterm" id="mineterm">
+                <option value="tone">One</option>
+                <option value="ttwo">Two</option>
+                <option value="tthree">Three</option>
+            </select>
+
+
+            <hr>
+
+            <select name="form" id="myClass" class="form">
+                <option value="fone">One</option>
+                <option value="ftwo">Two</option>
+                <option value="fthree">Three</option>
+                <option value="ffour">Four</option>
+            </select>
+
+            <button type="button" onclick="GetSelectedClass();" onclick="sum();" onclick="myFunction();" id="submitter"
+                class="hiden-print">Submit Class</button>
+            <hr>
+
+            <!--<p><code id="output"></code></p>-->
+
+
+
+            <hr>
+            <scan id="tru"></scan>
+            <button id="exiit">Exit</button>
+            <p id="outp">2345</p>
+        </div>
+<div id="tg"></div>
+        
+        </fieldset>
+</form>
+
+
+        <div class="entryy" id="entr">
+            <form method="POST" action="/receipt" id="myfrm">
+                <fieldset>
+                    <legend><i>Lorem Ipsum Sec. Sch. Fee Payment Receipt</i></legend>
+                    <table>
+
+
+
+                        <h6>REPUBLIC OF KENYA</h5>
+                        <h6>MINISTRY OF EDUCATION SCIENCE AND TECHNOLOGY</h6>
+                        <div>
+                           <!--<img src="/img/school-logo.jpg" alt="my school logo" id="mySchlogo">-->
+                            <div class="schHeader">
+                                <h5>LOREM IPSUM SECONDARY SCHOOL</h5>
+                                <h6> P.O BOX 117-40307 MAGUNGA</h6>
+                                <scan ><u id="myDate"></u></scan>
+                                <h6>SCHOOL FUND/BOARDING ACCOUNT</h6>
+                            </div>
+                        </div>
+                       
+                        <div style="text-align: left;">
+                            <scan>Received
+                            From....................................................................................................................</scan>
+                            <scan id="myForm">Form</scan>..........................................<scan id="term">Term
+                            </scan>...........................<scan id="admNO" name="serial">ADM NO.....................................</scan><br>
+                            <scan id="mount">The Sum of money Paid.....................................................................................................</scan>
+                           
+                            </div>
+                        <table id="tabb" style="width: 99.5%;height: 300px;font-size: small;border-color: black;">
+                            <tr>
+                                <th>No</th>
+                                <th>Being Payment of:</th>
+                                <th>Kshs</th>
+                                <th>Cts</th>
+
+                            </tr>
+                            <tr>
+                                <td>1</td>
+                                <td>Tution</td>
+                                <td id="td1"></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>Boarding</td>
+                                <td id="td2"></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>R.M.I</td>
+                                <td id="td3"></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td>4</td>
+                                <td>E.W.C</td>
+                                <td id="td4"></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td>5</td>
+                                <td>L.T & T</td>
+                                <td id="td5"></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td>6</td>
+                                <td>Administration Costs</td>
+                                <td id="td6"></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>Activity-FUND</td>
+                                <td id="td7"></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>8</td>
+                                <td>Exams</td>
+                                <td id="td8"></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td>9</td>
+                                <td>Personal Emoluments</td>
+                                <td id="td9"></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td>10</td>
+                                <td>PTA/DEV-FUND</td>
+                                <td id="td10"></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td>11</td>
+                                <td>Mock</td>
+                                <td id="td11"></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td>12</td>
+                                <td>Bus Fund</td>
+                                <td id="td12"></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td>13</td>
+                                <td>Medical Fees</td>
+                                <td id="td13"></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td>14</td>
+                                <td>Caution Money</td>
+                                <td id="td14"></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td>15</td>
+                                <td>Harambe</td>
+                                <td id="td15"></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td>16</td>
+                                <td>Advance/Imprest</td>
+                                <td id="td16"></td>
+                                <td></td>
+
+                            </tr>
+                            <tr>
+                                <td>17</td>
+                                <td></td>
+                                <td id="td17"></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>18</td>
+                                <td>TOTALS</td>
+                                <td id="td18"></td>
+                                <td></td>
+
+                            </tr>
+
+                        </table>
+                        
+                        <p style="text-align: left;margin-top: 0px;">
+                            Cash/Cheque/Money Order/Postal Order
+                            No:..................................................................<br>
+                            BAL. Kshs....................................................Received
+                            By:..............................................<br>
+                        </p>
+                        <p style="text-align: right; margin-right: 70px;">Account's Clerk/Burser/Principal</p>
+
+                        <scan><code id="output" 
+                                style="font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 600; color: blue; font-size: large;"
+                                ;>code</code></scan>
+    <h6 style="text-align: center; margin-bottom: 0px; color: rgb(17, 28, 121);">FEES ONCE PAID WILL
+        NOT BE REFUNDABE</h6>
+                </fieldset>
+            </form>
+            <hr>
+            <button style="margin: 0px; border-radius: 4px;" onclick="myApp.printTable();">PRINT</button>
+        </div>
+    </div>
+
+
+    <footer class="footer">
+        <p>
+            <i> &copy;2020,All Rights Reserved,Developed by @Cheque_Koluoch<br>
+                Made in Nairobi Kenya<i>
+        </p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="server.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>

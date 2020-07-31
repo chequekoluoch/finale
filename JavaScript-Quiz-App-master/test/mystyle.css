@@ -1,0 +1,241 @@
+.logo{
+    
+    top: 0;
+    height: 50px;
+    width: 100%;
+    background-image: url(img/tech.jpg);  
+    box-sizing: border-box;
+    border-radius:3px; 
+}
+.logo h1{
+    text-align: center;
+    color:lime;
+    font-weight: 100;
+    padding: 0;
+}
+.nav{
+    background-color:lightcyan;
+    margin: 0;
+    width:device-width;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius:5px;
+    margin-bottom: 1px;
+}
+.nav ul{
+          justify-content: space-between;
+          padding-top:7px;
+          margin: 0px;
+          padding-left: 4Opx; 
+          display: flex;
+          color: blue;
+}
+.copyRight {
+            position: fixed;
+            bottom: 0;
+            background-color: aquamarine;
+            height: 50px;
+            width:100%;
+            float: right;
+            padding-top: 0;
+            padding: 1px;
+            text-align: center;
+            margin-bottom: 2px;
+            color:mediumblue;
+            font-size: small;
+        }
+     
+.wiki{
+    background-color: mistyrose;
+    margin-right: 1px;
+    width: 49.7%; 
+    float: left;
+    min-height: 494px;
+box-sizing: border-box;
+border-radius:5px;
+padding:10px;
+padding-bottom: 70px;
+font-size: small;
+margin-bottom: 1px;
+} 
+.wiki h3{
+    text-align: center;
+    color: orange;
+}
+.wiki h4{
+    text-align: center;
+    color: rgb(255, 72, 0);
+}
+
+.inspiration{
+    background-color: lavender;
+    margin-left: 1px;
+    width: 49.7%;  
+    float: right;
+    font-size: small;
+    min-height: 494px;
+    box-sizing: border-box;
+    border-radius:5px;
+    padding-bottom:70px;
+    padding:10px;
+    margin-bottom: 1px;
+}      
+.inspiration h3{
+    text-align: center;
+    color: midnightblue;
+}
+.inspiration h4{
+    text-align: center;
+    color: rgb(94, 14, 131);
+}
+
+.contacts{
+    text-align: center;
+    background-color: palegreen;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 120px;
+    padding-top: 5px;
+    margin-bottom: 5px;
+}
+.col{
+    text-align: center;
+    line-height: 2px;
+    background-color: peru;
+    box-sizing: border-box;
+    border-radius: 5px;
+    height: 160px;
+    padding-top: 5px;
+}
+#wikiImage{
+    height:150px ;
+    width: 150px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    float: left;
+    margin-right: 12px;
+    }
+#myImage{
+    height:150px ;
+    width: 150px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    float: left;
+    margin-right: 12px;
+    }
+ .banner{
+        background-image: url("img/pyramid.jpg");
+        align-content: center;
+        display: flex;
+        
+    }
+     
+    .dashboard{
+        text-align:center ;
+        background:rgba(255,255,255,0.7) ;
+        display: inline-block;
+        padding: 1rem;
+        width: 100%;
+        box-sizing: border-box;
+        border-radius: 5px;
+        margin: auto;
+    }
+    .dashboard hr{
+        margin: 1.5px;
+    }
+.explainer{
+    text-align: center;
+    color:limegreen;
+    margin-top: 40px;
+} 
+.explainer h3{
+    color: magenta;
+}
+.mySkills{
+    text-align: center;
+}
+.myQuotes{
+    
+    margin: auto;
+    margin-bottom: 65px;
+    background:rgba(255,255,255,0.7) ;
+    padding: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    
+    
+}
+.myQuotes h2{
+text-align: center;
+color: limegreen;
+}
+.myQuotes p{
+margin-right: 5px;
+}
+.qfirst{
+   box-sizing: border-box;
+    border-radius: 5px;
+    color:orangered;
+    background: pink;
+    padding: 2px;
+} 
+
+    
+.myQuotes h2{
+text-align: center;
+color: limegreen;
+
+} 
+.myQuotes hr{
+        margin: 1.5px;
+    }
+
+.prepro{
+width:10px ;
+float: right;
+
+}
+
+
+.phome{
+    float:right;
+    background:rgba(255,255,255,0.7) ;
+    box-sizing: border-box;
+    border-radius: 2px;
+    height: 26px;
+    font-size: smaller;
+    margin: 1px;
+}
+
+.ome{
+    height: 20px;
+    width: 20px;
+    background-color: cornflowerblue;
+    float: left;
+    -webkit-border-top-right-radius:5px;
+-webkit-border-bottom-right-radius:5px;
+-moz-border-top-right-radius:5px;
+-moz-border-bottom-right-radius:5px;
+border-top-right-radius:5px;
+border-bottom-right-radius:5px;
+margin-bottom: 3px;
+align-content: center;
+padding: 1px;
+padding-top: 2px;
+padding-left: 2px;
+cursor: pointer;
+outline: none;
+}
+
+.yap{
+    height: 19px;
+    margin-bottom: 3px;
+    float: left;
+-webkit-border-top-left-radius:5px;
+-webkit-border-bottom-left-radius:5px;
+-moz-border-top-left-radius:5px;
+-moz-border-bottom-left-radius:5px;
+border-top-left-radius:5px;
+border-bottom-left-radius:5px;
+outline: none;
+}

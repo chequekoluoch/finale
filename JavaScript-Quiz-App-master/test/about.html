@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/ionicons.min.css">
+    <link rel="stylesheet" href="mystyle.css">
+    <title>About Cheque's</title>
+   
+</head>
+<body bgcolor="lightcyan">
+    <!-------------------------------------header---------------------------------------->
+    <header class="logo">
+        <h1>Cheque_Koluoch<h1>
+    </header>
+    <!-------------------------------------nav bar---------------------------------------->
+    <div class="nav">
+        <ul>
+            <a href="#" id=ahome><i class="fa fa-home"></i></a><br />
+            <a href="#" id="aabout">About</a><br />
+            <a href="#" id="askill">Skills</a><br />
+            <a href="#" id="aproverb">Proverbs</i></a><br />
+            <a href="#" id="aquote">Quotes</i></a><br />
+            <a href="#" id="acontact">Contact Me</i></a><br />
+        </ul>
+<div class="explainer">
+        <h3>WHAT IS THE WEBSITE ABOUT?</h3>
+        <p>This website displays news and inspirations daily.
+            The news are meant to inform us and the inspirations are meant to encourage us.
+        </p>
+    <h3>WHO IS CHEQUE</h3>
+    <P>Cheque is one, upcoming software developer/engineer who developed this site as his first test project.</P>
+
+    <h3>WHAT ELSE IS THE WEBSITE ABOUT</h3>
+    <P>This website also gives a range of proverbs and their explanations.
+        It also gives a range of quotes. This actually increases our wisdom.
+    </P>
+    </div>
+
+        <div class="copyRight">
+            <p>
+                <i> &copy;2020,All Rights Reserved,Developed by @Cheque_Koluoch<br>
+                    Made in Nairobi Kenya<i>
+            </p>
+        </div>
+
+    <script>
+        const myLink = document.getElementById('ahome');
+        myLink.onclick = function () {
+            window.location.href = "index.html";
+        }
+
+        const aproverb = document.getElementById('aproverb');
+            aproverb.onclick = function () {
+                window.location.href = "proverb.html";
+            }
+            const aquotes = document.getElementById('aquote');
+            aquotes.onclick = function () {
+                window.location.href = "quotes.html";
+            }
+            const askill = document.getElementById('askill');
+            askill.onclick = function () {
+                window.location.href = "skill.html";
+            }
+            const acontact = document.getElementById('acontact');
+            acontact.onclick = function () {
+                window.location.href = "contact.html";
+            }
+    </script>
+</body>
+</html>

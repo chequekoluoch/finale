@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div style="background-color: aqua;">
+        <h2 style="color: blue;text-align: center;">INTEREST CALCULATOR</h2>
+
+        <form style="width: 50%;text-align: center;margin: auto;">
+            <p id="myDate"></p>
+
+            <legend style="background-color:rgba(222,213,214,0.4);">
+
+                <fieldset style="border-radius: 4px; border-color: blue;">
+
+                    <label for="fname">Enter Principle Here:</label>
+                    <input type="number" id="p"><br><br>
+                    <label for="fname">Enter Rate Here:</label>
+                    <input type="number" id="r"><br><br>
+                    <label for="fname">Enter Time Here:</label>
+                    <input type="number" id="t"><br><br>
+
+                    <button onclick="interest();">Interest</button>
+                    <p id="res"></p>
+                </fieldset>
+            </legend>
+        </form>
+
+    </div>
+    <!---<script>
+        function interest(){
+        var p=document.getElementById("prince").value;
+        var r=document.getElementById("intee").value;
+        var t = document.getElementById("times").value;
+        var n=1/366;
+        var i=p(1+r/(n))^(n*t)-p;
+        console.log(i);
+        }
+
+    </script>
+-->
+
+</body>
+<script>
+
+    var dt = new Date();
+    var DD = ("0" + dt.getDate()).slice(-2);
+    var MM = ("0" + (dt.getMonth() + 1)).slice(-2);
+    var YYYY = dt.getFullYear();
+    var hh = ("0" + dt.getHours()).slice(-2);
+    var mm = ("0" + dt.getMinutes()).slice(-2);
+    var ss = ("0" + dt.getSeconds()).slice(-2);
+    var d = YYYY + "-" + MM + "-" + DD + " " + hh + ":" + mm + ":" + ss;
+    document.getElementById("myDate").innerHTML = "DATE:" + d;
+
+    function interest(){
+        p = document.getElementById("p").value;
+        n = 1 / 366; // no. of compoundings per year
+        t = document.getElementById("t").value; // no. of years
+        r = document.getElementById("r").value;
+        result = document.getElementById("res");
+        //The equation is A = p * [[1 + (r/n)] ^ nt]
+        I = (p * Math.pow((1 + (r / (1 / 366 * 100))), (n * t))) - p;
+
+        // toFixed is used for rounding the amount with two decimal places
+
+        result.innerHTML = "The interest is " + I.toFixed(2);
+
+        //result.innerHTML += "<br> The interest is " + (A.toFixed(2) - p).toFixed(2);
+    } 
+</script>
+
+
+</html>
